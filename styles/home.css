@@ -14,3 +14,19 @@ nav {
     background-image: url('../assets/hr-img.png');
     height: 10px;
 }
+
+.article-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+.article-title h1 {
+    margin: 5px;
+}
+
+.article-title h5 {
+    margin: 5px;
+}
