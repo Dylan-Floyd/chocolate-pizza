@@ -7,10 +7,6 @@ nav {
     align-items: center;
 }
 
-.right-nav-div {
-    margin-left: 60%;
-}
-
 .hr-div {
     background-image: url('../assets/hr-img.png');
     height: 10px;
@@ -87,15 +83,15 @@ h4{
 }
 
 #Delicious {
-display: flex;
-font-family: cursive;
-font-weight: bold;
-margin-left: 20px;
-display: flex;
-flex-direction: column;
-width: 400px;
-
-
+    display: flex;
+    font-family: cursive;
+    font-weight: bold;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 5px;
+    line-height: 1.1em;
 }
 
 #logo-a{
@@ -103,16 +99,30 @@ width: 400px;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
+    text-decoration: none;
+    color: black;
 }
 
-#Delicious h2{
+#Delicious h2 {
     margin: 5px;
+    margin-left: 0px;
+    margin-top: 12px;
+    font-family: 'Yellowtail', cursive;
+    font-size: 35px;
+    font-weight: 200
 }
+
 #best-food{
     display: block;
-    /* margin-top: 5px; */
-
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 12px;
+    letter-spacing: -.1em;
+    text-transform: uppercase;
+    margin-top: 2px;
+    font-weight: 500;
+    color: grey;
 }
+
 #logo-div{
     width: auto;
 }
