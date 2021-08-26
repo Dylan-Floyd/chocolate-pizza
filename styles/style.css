@@ -50,9 +50,7 @@ header {
     justify-content: space-between;
     flex-direction: row;
     */
-    background-color: var(--color3);
     height: var(--header-height);
-    box-shadow: var(--shadow);
 }
 
 footer {
