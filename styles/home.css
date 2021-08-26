@@ -53,3 +53,34 @@ h4{
 #van-p {
     margin: 5px;
 }
+#share-button{
+    background-color: rgb(161, 91, 10);
+    color: white;
+    border: none;
+    height: 50px;
+    width: 175px;
+    margin-left: 121px;
+}
+
+.recipe-column{
+    display: flex;
+    flex-direction: column;
+    justify-items: space-between;
+}
+#background-image{
+    display: flex;
+    flex-direction: row;
+    /* align-items: space-between; */
+    justify-content: space-around;
+    width: 100%;
+    background-image: url('../assets/list-bg.png');
+    padding: 23px;
+    width: 80%;
+    margin-bottom: 25px;
+    box-shadow: 10px 10px 10px rgba(100, 100, 100, 0.5);
+
+}
+
+.line-through{
+    text-decoration: line-through;
+}
