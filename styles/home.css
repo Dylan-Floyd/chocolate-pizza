@@ -23,10 +23,21 @@ nav {
 
 .article-title h1 {
     margin: 5px;
+    line-height: 1em;
+    font-weight: 1100;
+    font-size: 38px;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .article-title h5 {
     margin: 5px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    margin-top: 2px;
+    font-weight: 500;
+    color: rgb(165, 165, 165);
 }
 
 #article-footer{
@@ -37,6 +48,7 @@ nav {
     height: auto;
     align-items: center;
 }
+
 #van-pic{
     height: 55px;
     margin-top: 20px;
@@ -50,6 +62,7 @@ h4{
 #van-p {
     margin: 5px;
 }
+
 #share-button{
     background-color: rgb(161, 91, 10);
     color: white;
@@ -64,6 +77,7 @@ h4{
     flex-direction: column;
     justify-items: space-between;
 }
+
 #background-image{
     display: flex;
     flex-direction: row;
@@ -112,7 +126,7 @@ h4{
     font-weight: 200
 }
 
-#best-food{
+#best-food {
     display: block;
     font-family: 'Rajdhani', sans-serif;
     font-size: 12px;
