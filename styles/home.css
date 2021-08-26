@@ -1,1 +1,16 @@
 /* add home page styles here */
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+
+.right-nav-div {
+    margin-left: 60%;
+}
+
+.hr-div {
+    background-image: url('../assets/hr-img.png');
+    height: 10px;
+}
