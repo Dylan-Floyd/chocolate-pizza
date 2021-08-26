@@ -4,6 +4,7 @@ nav {
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
+    align-items: center;
 }
 
 .right-nav-div {
@@ -83,4 +84,35 @@ h4{
 
 .line-through{
     text-decoration: line-through;
+}
+
+#Delicious {
+display: flex;
+font-family: cursive;
+font-weight: bold;
+margin-left: 20px;
+display: flex;
+flex-direction: column;
+width: 400px;
+
+
+}
+
+#logo-a{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+#Delicious h2{
+    margin: 5px;
+}
+#best-food{
+    display: block;
+    /* margin-top: 5px; */
+
+}
+#logo-div{
+    width: auto;
 }
