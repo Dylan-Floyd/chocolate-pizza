@@ -13,6 +13,7 @@ nav {
 .hr-div {
     background-image: url('../assets/hr-img.png');
     height: 10px;
+    width: 100%;;
 }
 
 .article-header {
@@ -28,5 +29,27 @@ nav {
 }
 
 .article-title h5 {
+    margin: 5px;
+}
+
+#article-footer{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+#van-pic{
+    height: 55px;
+    margin-top: 20px;
+}
+
+h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#van-p {
     margin: 5px;
 }
